@@ -30,9 +30,7 @@ public class SubstringComparisons {
             if(tempStr.compareTo(largest) > 0) {
                 largest = tempStr;
             }
-
         }
-
         return smallest + "\n" + largest;
     }
 
